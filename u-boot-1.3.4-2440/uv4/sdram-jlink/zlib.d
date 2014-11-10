@@ -1,0 +1,11 @@
+.\sdram-jlink\zlib.o: ..\u-boot\lib_generic\zlib.c
+.\sdram-jlink\zlib.o: ..\u-boot\include\zlib.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\linux/string.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\linux/types.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\linux/config.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\linux/posix_types.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\linux/stddef.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\linux/types.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\asm/posix_types.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\asm/types.h
+.\sdram-jlink\zlib.o: ..\u-boot\include\asm/string.h

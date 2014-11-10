@@ -1,0 +1,523 @@
+Clean started: Project: 'u-boot-1.3.4-2440'
+   deleting intermediate output files for target 'sdram-jlink'
+Build target 'sdram-jlink'
+compiling cpu.c...
+compiling interrupts.c...
+assembling start.S...
+compiling speed.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+compiling s3c24x0_i2c.c...
+compiling s3c24x0_interrupts.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c(71): warning:  #223-D: function "get_PCLK" declared implicitly
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c(90): warning:  #223-D: function "reset_timer_masked" declared implicitly
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c(95): warning:  #223-D: function "get_timer_masked" declared implicitly
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c(112): warning:  #223-D: function "get_timer_masked" declared implicitly
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c(116): warning:  #159-D: declaration is incompatible with previous "reset_timer_masked" (declared at line 90)
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c(123): warning:  #159-D: declaration is incompatible with previous "get_timer_masked" (declared at line 95)
+compiling s3c24x0_nand.c...
+compiling s3c24x0_serial.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_serial.c(60): warning:  #223-D: function "get_PCLK" declared implicitly
+..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_serial.c(207): warning:  #68-D: integer conversion resulted in a change of sign
+compiling s3c24x0_usb.c...
+compiling s3c24x0_usb_ohci.c...
+compiling boot_init.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\board\samsung\tq2440\boot_init.c(211): warning:  #550-D: variable "pMID" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(213): warning:  #550-D: variable "nBuff" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(214): warning:  #550-D: variable "n4thcycle" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(331): warning:  #550-D: variable "col" was set but never used
+compiling tq2440.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+assembling lowlevel_init.S...
+compiling tq2440_flash.c...
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(150): warning:  #111-D: statement is unreachable
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(218): warning:  #223-D: function "reset_timer_masked" declared implicitly
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(238): warning:  #223-D: function "get_timer_masked" declared implicitly
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(278): warning:  #223-D: function "udelay_masked" declared implicitly
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(293): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(327): warning:  #223-D: function "reset_timer_masked" declared implicitly
+..\u-boot\board\samsung\tq2440\tq2440_flash.c(335): warning:  #223-D: function "get_timer_masked" declared implicitly
+compiling crc32.c...
+compiling ctype.c...
+compiling display_options.c...
+..\u-boot\lib_generic\display_options.c(129): warning:  #1254-D: arithmetic on pointer to void or function type
+compiling div64.c...
+compiling lmb.c...
+..\u-boot\lib_generic\lmb.c(255): warning:  #68-D: integer conversion resulted in a change of sign
+compiling string.c...
+..\u-boot\lib_generic\string.c(133): warning:  #1293-D: assignment in condition
+compiling vsprintf.c...
+compiling zlib.c...
+compiling board.c...
+compiling bootm.c...
+compiling cache.c...
+compiling interrupts_lib.c...
+compiling cmd_bootm.c...
+compiling cmd_boot.c...
+..\u-boot\common\cmd_boot.c(56): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "ulong (*)(int, char **)"
+compiling cmd_net.c...
+compiling cmd_nvedit.c...
+compiling console.c...
+compiling command.c...
+compiling flash.c...
+compiling devices.c...
+compiling env_flash.c...
+compiling env_common.c...
+compiling exports.c...
+compiling lists.c...
+compiling image.c...
+..\u-boot\common\image.c(760): warning:  #550-D: variable "rd_load" was set but never used
+compiling gunzip.c...
+compiling usb.c...
+..\u-boot\include\asm/atomic.h(39): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(41): warning:  #223-D: function "local_irq_restore" declared implicitly
+..\u-boot\include\asm/atomic.h(48): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(50): warning:  #223-D: function "local_irq_restore" declared implicitly
+..\u-boot\include\asm/atomic.h(57): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(59): warning:  #223-D: function "local_irq_restore" declared implicitly
+..\u-boot\include\asm/atomic.h(66): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(68): warning:  #223-D: function "local_irq_restore" declared implicitly
+..\u-boot\include\asm/atomic.h(76): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(79): warning:  #223-D: function "local_irq_restore" declared implicitly
+..\u-boot\include\asm/atomic.h(89): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(92): warning:  #223-D: function "local_irq_restore" declared implicitly
+..\u-boot\include\asm/atomic.h(101): warning:  #223-D: function "local_irq_save" declared implicitly
+..\u-boot\include\asm/atomic.h(103): warning:  #223-D: function "local_irq_restore" declared implicitly
+compiling main.c...
+compiling cmd_flash.c...
+compiling bootp.c...
+compiling eth.c...
+compiling net.c...
+..\u-boot\net\net.c(594): warning:  #550-D: variable "once" was set but never used
+..\u-boot\net\net.c(1623): warning:  #111-D: statement is unreachable
+compiling tftp.c...
+compiling nfs.c...
+compiling rarp.c...
+compiling dm9000x.c...
+..\u-boot\drivers\net\dm9000x.c(675): warning:  #111-D: statement is unreachable
+compiling nand.c...
+compiling nand_base.c...
+compiling nand_bbt.c...
+compiling nand_ecc.c...
+compiling nand_ids.c...
+compiling nand_util.c...
+compiling retarget.c...
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" "E:/keilprj/TQ2440/u-boot-1.3.axf"
+"E:/keilprj/TQ2440/u-boot-1.3.axf": Error: Q0122E: Could not open file 'E:/keilprj/TQ2440/u-boot-1.3.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 231 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" "E:/keilprj/TQ2440/u-boot-1.3.axf"
+"E:/keilprj/TQ2440/u-boot-1.3.axf": Error: Q0122E: Could not open file 'E:/keilprj/TQ2440/u-boot-1.3.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+assembling start.S...
+compiling boot_init.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\board\samsung\tq2440\boot_init.c(211): warning:  #550-D: variable "pMID" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(213): warning:  #550-D: variable "nBuff" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(214): warning:  #550-D: variable "n4thcycle" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(331): warning:  #550-D: variable "col" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(451): error:  #2901: Expected an inline assembly instruction
+..\u-boot\board\samsung\tq2440\boot_init.c(451): error:  #1083: Inline assembler syntax error
+..\u-boot\board\samsung\tq2440\boot_init.c(453): error:  #40: expected an identifier
+..\u-boot\board\samsung\tq2440\boot_init.c(445): warning:  #177-D: variable "i" was declared but never referenced
+Target not created
+Build target 'sdram-jlink'
+compiling boot_init.c...
+..\u-boot\include\s3c2440.h(72): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(74): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(76): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(78): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(80): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(82): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(84): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(86): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(88): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(90): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(92): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(94): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(96): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(98): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(102): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(104): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(106): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(108): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(110): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(112): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(114): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(116): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(118): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(120): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(122): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(124): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(126): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(128): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(130): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(132): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(134): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(136): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(138): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(140): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(142): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(144): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\include\s3c2440.h(146): warning:  #815-D: type qualifier on return type is meaningless
+..\u-boot\include\s3c2440.h(148): warning:  #191-D: type qualifier is meaningless on cast type
+..\u-boot\board\samsung\tq2440\boot_init.c(211): warning:  #550-D: variable "pMID" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(213): warning:  #550-D: variable "nBuff" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(214): warning:  #550-D: variable "n4thcycle" was set but never used
+..\u-boot\board\samsung\tq2440\boot_init.c(331): warning:  #550-D: variable "col" was set but never used
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 42 Warning(s).
+Build target 'sdram-jlink'
+assembling lowlevel_init.S...
+linking...
+.\sdram-jlink\u_boot.axf: Error: L6630E: Invalid token start expected number or ( but found S at position 13 on line 32
+.\sdram-jlink\u_boot.axf: Error: L6226E: Missing base address for region Load_region.
+..\u-boot\board\samsung\tq2440\u-boot.sct(32): error: L6292E: Ignoring unknown attribute 'START_ADDRESS' specified for region Load_region.
+..\u-boot\board\samsung\tq2440\u-boot.sct: Error: L6630E: Invalid token start expected number or ( but found S at position 10 on line 34
+..\u-boot\board\samsung\tq2440\u-boot.sct: Error: L6226E: Missing base address for region E_RO.
+..\u-boot\board\samsung\tq2440\u-boot.sct(34): error: L6292E: Ignoring unknown attribute 'START_ADDRESS' specified for region E_RO.
+Target not created
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+assembling lowlevel_init.S...
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+assembling lowlevel_init.S...
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+assembling lowlevel_init.S...
+linking...
+Program Size: Code=88488 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+assembling start.S...
+..\u-boot\cpu\arm920t\start.S(304): error: A1023E: File "lowlevel_init.S" could not be opened: No such file or directory
+assembling lowlevel_init.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(181): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'sdram-jlink'
+assembling start.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(181): error: A1108E: Multiply defined symbol 'lowlevel_init'
+   included by GET/INCLUDE directive from (304): warning: 
+   included by GET/INCLUDE directive from : 
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(226): warning: A1313W: Missing END directive at end of file
+   included by GET/INCLUDE directive from (304): warning: 
+   included by GET/INCLUDE directive from : 
+assembling lowlevel_init.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(181): error: A1355U: A Label was found which was in no AREA
+Target not created
+Build target 'sdram-jlink'
+assembling start.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(181): error: A1108E: Multiply defined symbol 'lowlevel_init'
+   included by GET/INCLUDE directive from (304): warning: 
+   included by GET/INCLUDE directive from : 
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(226): warning: A1313W: Missing END directive at end of file
+   included by GET/INCLUDE directive from (304): warning: 
+   included by GET/INCLUDE directive from : 
+Target not created
+Build target 'sdram-jlink'
+assembling start.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(181): error: A1108E: Multiply defined symbol 'lowlevel_init'
+   included by GET/INCLUDE directive from (304): warning: 
+   included by GET/INCLUDE directive from : 
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(226): warning: A1313W: Missing END directive at end of file
+   included by GET/INCLUDE directive from (304): warning: 
+   included by GET/INCLUDE directive from : 
+Target not created
+Build target 'sdram-jlink'
+assembling start.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(226): warning: A1313W: Missing END directive at end of file
+   included by GET/INCLUDE directive from (303): warning: 
+   included by GET/INCLUDE directive from : 
+linking...
+Program Size: Code=88484 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 2 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88484 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'sdram-jlink'
+assembling start.S...
+..\u-boot\board\samsung\tq2440\lowlevel_init.S(226): warning: A1313W: Missing END directive at end of file
+   included by GET/INCLUDE directive from (303): warning: 
+   included by GET/INCLUDE directive from : 
+linking...
+Program Size: Code=88480 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 2 Warning(s).
+Build target 'sdram-jlink'
+linking...
+Program Size: Code=88480 RO-data=6688 RW-data=2616 ZI-data=17020  
+User command #1: fromelf.exe --bin -o  "E:/keilprj/TQ2440/u-boot-1.3.4-2440/uv4/sdram-jlink/u_boot.bin" ./sdram-jlink/u_boot.axf
+".\sdram-jlink\u_boot.axf" - 0 Error(s), 0 Warning(s).

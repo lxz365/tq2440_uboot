@@ -1,0 +1,75 @@
+*** Creating Trace Output File 'u-boot-1.3.4-2440.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"cpu.o"'
+### List of Objects: adding '"interrupts.o"'
+### List of Objects: adding '".\start.o"'
+### List of Objects: adding '"speed.o"'
+### List of Objects: adding '"s3c24x0_i2c.o"'
+### List of Objects: adding '"s3c24x0_interrupts.o"'
+### List of Objects: adding '"s3c24x0_nand.o"'
+### List of Objects: adding '"s3c24x0_serial.o"'
+### List of Objects: adding '"s3c24x0_usb.o"'
+### List of Objects: adding '"s3c24x0_usb_ohci.o"'
+### List of Objects: adding '"boot_init.o"'
+### List of Objects: adding '"tq2440.o"'
+### List of Objects: adding '".\lowlevel_init.o"'
+### List of Objects: adding '"tq2440_flash.o"'
+### List of Objects: adding '"crc32.o"'
+### List of Objects: adding '"ctype.o"'
+### List of Objects: adding '"display_options.o"'
+### List of Objects: adding '"div64.o"'
+### List of Objects: adding '"lmb.o"'
+### List of Objects: adding '"string.o"'
+### List of Objects: adding '"vsprintf.o"'
+### List of Objects: adding '"zlib.o"'
+### List of Objects: adding '"board.o"'
+### List of Objects: adding '"bootm.o"'
+### List of Objects: adding '"cache.o"'
+### List of Objects: adding '"interrupts_lib.o"'
+### List of Objects: adding '"cmd_bootm.o"'
+### List of Objects: adding '"cmd_boot.o"'
+### List of Objects: adding '"cmd_net.o"'
+### List of Objects: adding '"cmd_nvedit.o"'
+### List of Objects: adding '"console.o"'
+### List of Objects: adding '"command.o"'
+### List of Objects: adding '"flash.o"'
+### List of Objects: adding '"devices.o"'
+### List of Objects: adding '"env_flash.o"'
+### List of Objects: adding '"env_common.o"'
+### List of Objects: adding '"exports.o"'
+### List of Objects: adding '"lists.o"'
+### List of Objects: adding '"image.o"'
+### List of Objects: adding '"gunzip.o"'
+### List of Objects: adding '"usb.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"cmd_flash.o"'
+### List of Objects: adding '"bootp.o"'
+### List of Objects: adding '"eth.o"'
+### List of Objects: adding '"net.o"'
+### List of Objects: adding '"tftp.o"'
+### List of Objects: adding '"nfs.o"'
+### List of Objects: adding '"rarp.o"'
+### List of Objects: adding '"dm9000x.o"'
+### List of Objects: adding '"nand.o"'
+### List of Objects: adding '"nand_base.o"'
+### List of Objects: adding '"nand_bbt.o"'
+### List of Objects: adding '"nand_ecc.o"'
+### List of Objects: adding '"nand_ids.o"'
+### List of Objects: adding '"nand_util.o"'
+### List of Objects: adding '"retarget.o"'
+### ADS-LD Command completed:
+--cpu ARM920T "cpu.o" "interrupts.o" ".\start.o" "speed.o" "s3c24x0_i2c.o" "s3c24x0_interrupts.o" "s3c24x0_nand.o" "s3c24x0_serial.o" "s3c24x0_usb.o" "s3c24x0_usb_ohci.o" "boot_init.o" "tq2440.o" ".\lowlevel_init.o" "tq2440_flash.o" "crc32.o" "ctype.o" "display_options.o" "div64.o" "lmb.o" "string.o" "vsprintf.o" "zlib.o" "board.o" "bootm.o" "cache.o" "interrupts_lib.o" "cmd_bootm.o" "cmd_boot.o" "cmd_net.o" "cmd_nvedit.o" "console.o" "command.o" "flash.o" "devices.o" "env_flash.o" "env_common.o" "exports.o" "lists.o" "image.o" "gunzip.o" "usb.o" "main.o" "cmd_flash.o" "bootp.o" "eth.o" "net.o" "tftp.o" "nfs.o" "rarp.o" "dm9000x.o" "nand.o" "nand_base.o" "nand_bbt.o" "nand_ecc.o" "nand_ids.o" "nand_util.o" "retarget.o" --strict --scatter "..\u-boot\board\samsung\tq2440\u-boot.sct" 
+--no_remove --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\u-boot-1.3.map" -o "u-boot-1.3.4-2440.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'u-boot-1.3.4-2440.axf'
+### ADS-LD Command File: 'u-boot-1.3.4-2440.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'u-boot-1.3.4-2440.lnp', Handle=0x000007B4
+### Writing '.lnp' file
+### ADS-LD Command file 'u-boot-1.3.4-2440.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,75 @@
+*** Creating Trace Output File '.\sdram-jlink\u-boot-1.3.4-2440.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\sdram-jlink\cpu.o"'
+### List of Objects: adding '".\sdram-jlink\interrupts.o"'
+### List of Objects: adding '".\sdram-jlink\start.o"'
+### List of Objects: adding '".\sdram-jlink\speed.o"'
+### List of Objects: adding '".\sdram-jlink\s3c24x0_i2c.o"'
+### List of Objects: adding '".\sdram-jlink\s3c24x0_interrupts.o"'
+### List of Objects: adding '".\sdram-jlink\s3c24x0_nand.o"'
+### List of Objects: adding '".\sdram-jlink\s3c24x0_serial.o"'
+### List of Objects: adding '".\sdram-jlink\s3c24x0_usb.o"'
+### List of Objects: adding '".\sdram-jlink\s3c24x0_usb_ohci.o"'
+### List of Objects: adding '".\sdram-jlink\boot_init.o"'
+### List of Objects: adding '".\sdram-jlink\tq2440.o"'
+### List of Objects: adding '".\sdram-jlink\lowlevel_init.o"'
+### List of Objects: adding '".\sdram-jlink\tq2440_flash.o"'
+### List of Objects: adding '".\sdram-jlink\crc32.o"'
+### List of Objects: adding '".\sdram-jlink\ctype.o"'
+### List of Objects: adding '".\sdram-jlink\display_options.o"'
+### List of Objects: adding '".\sdram-jlink\div64.o"'
+### List of Objects: adding '".\sdram-jlink\lmb.o"'
+### List of Objects: adding '".\sdram-jlink\string.o"'
+### List of Objects: adding '".\sdram-jlink\vsprintf.o"'
+### List of Objects: adding '".\sdram-jlink\zlib.o"'
+### List of Objects: adding '".\sdram-jlink\board.o"'
+### List of Objects: adding '".\sdram-jlink\bootm.o"'
+### List of Objects: adding '".\sdram-jlink\cache.o"'
+### List of Objects: adding '".\sdram-jlink\interrupts_lib.o"'
+### List of Objects: adding '".\sdram-jlink\cmd_bootm.o"'
+### List of Objects: adding '".\sdram-jlink\cmd_boot.o"'
+### List of Objects: adding '".\sdram-jlink\cmd_net.o"'
+### List of Objects: adding '".\sdram-jlink\cmd_nvedit.o"'
+### List of Objects: adding '".\sdram-jlink\console.o"'
+### List of Objects: adding '".\sdram-jlink\command.o"'
+### List of Objects: adding '".\sdram-jlink\flash.o"'
+### List of Objects: adding '".\sdram-jlink\devices.o"'
+### List of Objects: adding '".\sdram-jlink\env_flash.o"'
+### List of Objects: adding '".\sdram-jlink\env_common.o"'
+### List of Objects: adding '".\sdram-jlink\exports.o"'
+### List of Objects: adding '".\sdram-jlink\lists.o"'
+### List of Objects: adding '".\sdram-jlink\image.o"'
+### List of Objects: adding '".\sdram-jlink\gunzip.o"'
+### List of Objects: adding '".\sdram-jlink\usb.o"'
+### List of Objects: adding '".\sdram-jlink\main.o"'
+### List of Objects: adding '".\sdram-jlink\cmd_flash.o"'
+### List of Objects: adding '".\sdram-jlink\bootp.o"'
+### List of Objects: adding '".\sdram-jlink\eth.o"'
+### List of Objects: adding '".\sdram-jlink\net.o"'
+### List of Objects: adding '".\sdram-jlink\tftp.o"'
+### List of Objects: adding '".\sdram-jlink\nfs.o"'
+### List of Objects: adding '".\sdram-jlink\rarp.o"'
+### List of Objects: adding '".\sdram-jlink\dm9000x.o"'
+### List of Objects: adding '".\sdram-jlink\nand.o"'
+### List of Objects: adding '".\sdram-jlink\nand_base.o"'
+### List of Objects: adding '".\sdram-jlink\nand_bbt.o"'
+### List of Objects: adding '".\sdram-jlink\nand_ecc.o"'
+### List of Objects: adding '".\sdram-jlink\nand_ids.o"'
+### List of Objects: adding '".\sdram-jlink\nand_util.o"'
+### List of Objects: adding '".\sdram-jlink\retarget.o"'
+### ADS-LD Command completed:
+--cpu ARM920T ".\sdram-jlink\cpu.o" ".\sdram-jlink\interrupts.o" ".\sdram-jlink\start.o" ".\sdram-jlink\speed.o" ".\sdram-jlink\s3c24x0_i2c.o" ".\sdram-jlink\s3c24x0_interrupts.o" ".\sdram-jlink\s3c24x0_nand.o" ".\sdram-jlink\s3c24x0_serial.o" ".\sdram-jlink\s3c24x0_usb.o" ".\sdram-jlink\s3c24x0_usb_ohci.o" ".\sdram-jlink\boot_init.o" ".\sdram-jlink\tq2440.o" ".\sdram-jlink\lowlevel_init.o" ".\sdram-jlink\tq2440_flash.o" ".\sdram-jlink\crc32.o" ".\sdram-jlink\ctype.o" ".\sdram-jlink\display_options.o" ".\sdram-jlink\div64.o" ".\sdram-jlink\lmb.o" ".\sdram-jlink\string.o" ".\sdram-jlink\vsprintf.o" ".\sdram-jlink\zlib.o" ".\sdram-jlink\board.o" ".\sdram-jlink\bootm.o" ".\sdram-jlink\cache.o" ".\sdram-jlink\interrupts_lib.o" ".\sdram-jlink\cmd_bootm.o" ".\sdram-jlink\cmd_boot.o" ".\sdram-jlink\cmd_net.o" ".\sdram-jlink\cmd_nvedit.o" ".\sdram-jlink\console.o" ".\sdram-jlink\command.o" ".\sdram-jlink\flash.o" ".\sdram-jlink\devices.o" ".\sdram-jlink\env_flash.o" ".\sdram-jlink\env_common.o" ".\sdram-jlink\exports.o" ".\sdram-jlink\lists.o" ".\sdram-jlink\image.o" ".\sdram-jlink\gunzip.o" ".\sdram-jlink\usb.o" ".\sdram-jlink\main.o" ".\sdram-jlink\cmd_flash.o" ".\sdram-jlink\bootp.o" ".\sdram-jlink\eth.o" ".\sdram-jlink\net.o" ".\sdram-jlink\tftp.o" ".\sdram-jlink\nfs.o" ".\sdram-jlink\rarp.o" ".\sdram-jlink\dm9000x.o" ".\sdram-jlink\nand.o" ".\sdram-jlink\nand_base.o" ".\sdram-jlink\nand_bbt.o" ".\sdram-jlink\nand_ecc.o" ".\sdram-jlink\nand_ids.o" ".\sdram-jlink\nand_util.o" ".\sdram-jlink\retarget.o" --strict --scatter "..\u-boot\board\samsung\tq2440\u-boot.sct" 
+--no_remove --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sdram-jlink\u-boot-1.3.map" -o ".\sdram-jlink\u-boot-1.3.4-2440.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\sdram-jlink\u-boot-1.3.4-2440.axf'
+### ADS-LD Command File: '.\sdram-jlink\u-boot-1.3.4-2440.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\sdram-jlink\u-boot-1.3.4-2440.lnp', Handle=0x00000950
+### Writing '.lnp' file
+### ADS-LD Command file '.\sdram-jlink\u-boot-1.3.4-2440.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

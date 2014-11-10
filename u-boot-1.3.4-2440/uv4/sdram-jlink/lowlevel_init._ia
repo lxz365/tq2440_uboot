@@ -1,0 +1,1 @@
+--cpu ARM920T -g --apcs=interwork -I "d:\Keil\ARM\CMSIS\Include" -I "d:\Keil\ARM\INC\Samsung" --list ".\sdram-jlink\lowlevel_init.lst" --xref -o ".\sdram-jlink\lowlevel_init.o" --depend ".\sdram-jlink\lowlevel_init.d" "..\u-boot\board\samsung\tq2440\lowlevel_init.S"

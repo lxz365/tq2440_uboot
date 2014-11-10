@@ -1,0 +1,1677 @@
+Dependencies for Project 'u-boot-1.3.4-2440', Target 'sdram-jlink': (DO NOT MODIFY !)
+F (..\u-boot\cpu\arm920t\cpu.c)(0x4F355CEC)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cpu.o --omf_browse .\sdram-jlink\cpu.crf --depend .\sdram-jlink\cpu.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\arm920t.h)(0x4F2605FB)
+F (..\u-boot\cpu\arm920t\interrupts.c)(0x4F2899CE)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\interrupts.o --omf_browse .\sdram-jlink\interrupts.crf --depend .\sdram-jlink\interrupts.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\arm920t.h)(0x4F2605FB)
+F (..\u-boot\cpu\arm920t\start.S)(0x4F37D4BC)(--cpu ARM920T -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung--list .\sdram-jlink\start.lst --xref -o .\sdram-jlink\start.o --depend .\sdram-jlink\start.d)
+I (..\u-boot\board\samsung\tq2440\lowlevel_init.S)(0x4F36504D)
+F (..\u-boot\cpu\arm920t\s3c24x0\speed.c)(0x4F355935)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\speed.o --omf_browse .\sdram-jlink\speed.crf --depend .\sdram-jlink\speed.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\asm/mach-types.h)(0x4F369372)
+I (..\u-boot\include\s3c2440.h)(0x4F36632C)
+I (..\u-boot\include\s3c24x0.h)(0x4F355568)
+F (..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_i2c.c)(0x4F3557F0)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\s3c24x0_i2c.o --omf_browse .\sdram-jlink\s3c24x0_i2c.crf --depend .\sdram-jlink\s3c24x0_i2c.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_interrupts.c)(0x4F3663BC)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\s3c24x0_interrupts.o --omf_browse .\sdram-jlink\s3c24x0_interrupts.crf --depend .\sdram-jlink\s3c24x0_interrupts.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\arm920t.h)(0x4F2605FB)
+I (..\u-boot\include\s3c2440.h)(0x4F36632C)
+I (..\u-boot\include\s3c24x0.h)(0x4F355568)
+F (..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_nand.c)(0x4F3557F0)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\s3c24x0_nand.o --omf_browse .\sdram-jlink\s3c24x0_nand.crf --depend .\sdram-jlink\s3c24x0_nand.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_serial.c)(0x4F368B9D)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\s3c24x0_serial.o --omf_browse .\sdram-jlink\s3c24x0_serial.crf --depend .\sdram-jlink\s3c24x0_serial.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\s3c2440.h)(0x4F36632C)
+I (..\u-boot\include\s3c24x0.h)(0x4F355568)
+F (..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_usb.c)(0x4F3557F0)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\s3c24x0_usb.o --omf_browse .\sdram-jlink\s3c24x0_usb.crf --depend .\sdram-jlink\s3c24x0_usb.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\cpu\arm920t\s3c24x0\s3c24x0_usb_ohci.c)(0x4F3557F0)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\s3c24x0_usb_ohci.o --omf_browse .\sdram-jlink\s3c24x0_usb_ohci.crf --depend .\sdram-jlink\s3c24x0_usb_ohci.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\board\samsung\tq2440\boot_init.c)(0x4F36A182)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\boot_init.o --omf_browse .\sdram-jlink\boot_init.crf --depend .\sdram-jlink\boot_init.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\s3c2440.h)(0x4F36632C)
+I (..\u-boot\include\s3c24x0.h)(0x4F355568)
+F (..\u-boot\board\samsung\tq2440\tq2440.c)(0x4F3694D9)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\tq2440.o --omf_browse .\sdram-jlink\tq2440.crf --depend .\sdram-jlink\tq2440.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\asm/mach-types.h)(0x4F369372)
+I (..\u-boot\include\s3c2440.h)(0x4F36632C)
+I (..\u-boot\include\s3c24x0.h)(0x4F355568)
+F (..\u-boot\board\samsung\tq2440\tq2440_flash.c)(0x4F3665AC)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\tq2440_flash.o --omf_browse .\sdram-jlink\tq2440_flash.crf --depend .\sdram-jlink\tq2440_flash.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\lib_generic\crc32.c)(0x4F2FE864)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\crc32.o --omf_browse .\sdram-jlink\crc32.crf --depend .\sdram-jlink\crc32.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\zlib.h)(0x4F2605FC)
+F (..\u-boot\lib_generic\ctype.c)(0x4F2FE864)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\ctype.o --omf_browse .\sdram-jlink\ctype.crf --depend .\sdram-jlink\ctype.d)
+I (..\u-boot\include\linux/ctype.h)(0x4F2605FB)
+F (..\u-boot\lib_generic\display_options.c)(0x4F332E2F)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\display_options.o --omf_browse .\sdram-jlink\display_options.crf --depend .\sdram-jlink\display_options.d)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\linux/ctype.h)(0x4F2605FB)
+I (..\u-boot\include\asm/io.h)(0x4F2605FC)
+I (..\u-boot\include\asm/memory.h)(0x4F2605FC)
+F (..\u-boot\lib_generic\div64.c)(0x4F2FE864)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\div64.o --omf_browse .\sdram-jlink\div64.crf --depend .\sdram-jlink\div64.d)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+F (..\u-boot\lib_generic\lmb.c)(0x4F2FE864)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\lmb.o --omf_browse .\sdram-jlink\lmb.crf --depend .\sdram-jlink\lmb.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\lib_generic\string.c)(0x4F2FE864)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\string.o --omf_browse .\sdram-jlink\string.crf --depend .\sdram-jlink\string.d)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\linux/ctype.h)(0x4F2605FB)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+F (..\u-boot\lib_generic\vsprintf.c)(0x4F2FE864)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\vsprintf.o --omf_browse .\sdram-jlink\vsprintf.crf --depend .\sdram-jlink\vsprintf.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\linux/ctype.h)(0x4F2605FB)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\lib_generic\zlib.c)(0x4F3156F1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\zlib.o --omf_browse .\sdram-jlink\zlib.crf --depend .\sdram-jlink\zlib.d)
+I (..\u-boot\include\zlib.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+F (..\u-boot\lib_arm\board.c)(0x4F3489C2)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\board.o --omf_browse .\sdram-jlink\board.crf --depend .\sdram-jlink\board.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\include\devices.h)(0x4F2605FD)
+I (..\u-boot\include\lists.h)(0x4F2605FC)
+I (..\u-boot\include\version.h)(0x4F2605FD)
+I (..\u-boot\include\version_autogenerated.h)(0x4F2605FD)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\include\serial.h)(0x4F2605FC)
+I (..\u-boot\include\nand.h)(0x4F30E634)
+I (..\u-boot\include\linux/mtd/compat.h)(0x4F263B26)
+I (..\u-boot\include\linux/mtd/mtd.h)(0x4F2605FB)
+I (..\u-boot\include\linux/mtd/mtd-abi.h)(0x4F2605FB)
+I (..\u-boot\include\linux/mtd/nand.h)(0x4F276425)
+I (..\u-boot\include\onenand_uboot.h)(0x4F2605FB)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_heap.h)(0x54199D7A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+F (..\u-boot\lib_arm\bootm.c)(0x4F33DBFA)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\bootm.o --omf_browse .\sdram-jlink\bootm.crf --depend .\sdram-jlink\bootm.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\zlib.h)(0x4F2605FC)
+I (..\u-boot\include\asm/setup.h)(0x4F2605FC)
+F (..\u-boot\lib_arm\cache.c)(0x4F2E999F)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cache.o --omf_browse .\sdram-jlink\cache.crf --depend .\sdram-jlink\cache.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\lib_arm\interrupts_lib.c)(0x4F2E999F)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\interrupts_lib.o --omf_browse .\sdram-jlink\interrupts_lib.crf --depend .\sdram-jlink\interrupts_lib.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\asm/proc-armv/ptrace.h)(0x4F2605FC)
+F (..\u-boot\common\cmd_bootm.c)(0x4F2E9EA2)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cmd_bootm.o --omf_browse .\sdram-jlink\cmd_bootm.crf --depend .\sdram-jlink\cmd_bootm.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\watchdog.h)(0x4F2605FB)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\include\zlib.h)(0x4F2605FC)
+I (..\u-boot\include\bzlib.h)(0x4F2605FD)
+I (..\u-boot\include\environment.h)(0x4F2605FB)
+F (..\u-boot\common\cmd_boot.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cmd_boot.o --omf_browse .\sdram-jlink\cmd_boot.crf --depend .\sdram-jlink\cmd_boot.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+F (..\u-boot\common\cmd_net.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cmd_net.o --omf_browse .\sdram-jlink\cmd_net.crf --depend .\sdram-jlink\cmd_net.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+F (..\u-boot\common\cmd_nvedit.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cmd_nvedit.o --omf_browse .\sdram-jlink\cmd_nvedit.crf --depend .\sdram-jlink\cmd_nvedit.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\environment.h)(0x4F2605FB)
+I (..\u-boot\include\watchdog.h)(0x4F2605FB)
+I (..\u-boot\include\serial.h)(0x4F2605FC)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+F (..\u-boot\common\console.c)(0x4F315774)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\console.o --omf_browse .\sdram-jlink\console.crf --depend .\sdram-jlink\console.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\include\console.h)(0x4F2605FC)
+I (..\u-boot\include\devices.h)(0x4F2605FD)
+I (..\u-boot\include\lists.h)(0x4F2605FC)
+I (..\u-boot\include\exports.h)(0x4F2605FD)
+I (..\u-boot\include\_exports.h)(0x4F2605FB)
+F (..\u-boot\common\command.c)(0x4F339123)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\command.o --omf_browse .\sdram-jlink\command.crf --depend .\sdram-jlink\command.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+F (..\u-boot\common\flash.c)(0x4F2E9EA2)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\flash.o --omf_browse .\sdram-jlink\flash.crf --depend .\sdram-jlink\flash.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\common\devices.c)(0x4F2E9EA2)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\devices.o --omf_browse .\sdram-jlink\devices.crf --depend .\sdram-jlink\devices.d)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\include\devices.h)(0x4F2605FD)
+I (..\u-boot\include\lists.h)(0x4F2605FC)
+I (..\u-boot\include\serial.h)(0x4F2605FC)
+F (..\u-boot\common\env_flash.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\env_flash.o --omf_browse .\sdram-jlink\env_flash.crf --depend .\sdram-jlink\env_flash.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\environment.h)(0x4F2605FB)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+F (..\u-boot\common\env_common.c)(0x4F33F019)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\env_common.o --omf_browse .\sdram-jlink\env_common.crf --depend .\sdram-jlink\env_common.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\environment.h)(0x4F2605FB)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+F (..\u-boot\common\exports.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\exports.o --omf_browse .\sdram-jlink\exports.crf --depend .\sdram-jlink\exports.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\exports.h)(0x4F2605FD)
+I (..\u-boot\include\_exports.h)(0x4F2605FB)
+F (..\u-boot\common\lists.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\lists.o --omf_browse .\sdram-jlink\lists.crf --depend .\sdram-jlink\lists.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\include\lists.h)(0x4F2605FC)
+F (..\u-boot\common\image.c)(0x4F3691AF)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\image.o --omf_browse .\sdram-jlink\image.crf --depend .\sdram-jlink\image.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\watchdog.h)(0x4F2605FB)
+F (..\u-boot\common\gunzip.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\gunzip.o --omf_browse .\sdram-jlink\gunzip.crf --depend .\sdram-jlink\gunzip.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\watchdog.h)(0x4F2605FB)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\include\zlib.h)(0x4F2605FC)
+F (..\u-boot\common\usb.c)(0x4F2E9EA2)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\usb.o --omf_browse .\sdram-jlink\usb.crf --depend .\sdram-jlink\usb.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\asm/processor.h)(0x4F2605FC)
+I (..\u-boot\include\asm/atomic.h)(0x4F368B6B)
+I (..\u-boot\include\asm/proc/system.h)(0x4F36971A)
+I (..\u-boot\include\asm/proc/processor.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/domain.h)(0x4F2605FC)
+I (..\u-boot\include\linux/ctype.h)(0x4F2605FB)
+F (..\u-boot\common\main.c)(0x4F3157BF)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\main.o --omf_browse .\sdram-jlink\main.crf --depend .\sdram-jlink\main.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\watchdog.h)(0x4F2605FB)
+I (..\u-boot\include\post.h)(0x4F2605FB)
+F (..\u-boot\common\cmd_flash.c)(0x4F2E9EA1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cmd_flash.o --omf_browse .\sdram-jlink\cmd_flash.crf --depend .\sdram-jlink\cmd_flash.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\common\cmd_boot_zimage.c)(0x4F37C63F)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\cmd_boot_zimage.o --omf_browse .\sdram-jlink\cmd_boot_zimage.crf --depend .\sdram-jlink\cmd_boot_zimage.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\asm/setup.h)(0x4F2605FC)
+I (..\u-boot\include\asm/mach-types.h)(0x4F369372)
+I (..\u-boot\include\asm/proc/system.h)(0x4F36971A)
+F (..\u-boot\net\bootp.c)(0x4F2E9FBE)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\bootp.o --omf_browse .\sdram-jlink\bootp.crf --depend .\sdram-jlink\bootp.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\net\bootp.h)(0x4F2E9FBE)
+I (..\u-boot\net\tftp.h)(0x4F2E9FBE)
+I (..\u-boot\net\nfs.h)(0x4F2E9FBE)
+F (..\u-boot\net\eth.c)(0x4F2E9FBE)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\eth.o --omf_browse .\sdram-jlink\eth.crf --depend .\sdram-jlink\eth.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\include\miiphy.h)(0x4F2605FB)
+F (..\u-boot\net\net.c)(0x4F3691AF)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\net.o --omf_browse .\sdram-jlink\net.crf --depend .\sdram-jlink\net.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\watchdog.h)(0x4F2605FB)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\net\bootp.h)(0x4F2E9FBE)
+I (..\u-boot\net\tftp.h)(0x4F2E9FBE)
+I (..\u-boot\net\rarp.h)(0x4F2E9FBE)
+I (..\u-boot\net\nfs.h)(0x4F2E9FBE)
+F (..\u-boot\net\tftp.c)(0x4F2E9FBE)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\tftp.o --omf_browse .\sdram-jlink\tftp.crf --depend .\sdram-jlink\tftp.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\net\tftp.h)(0x4F2E9FBE)
+I (..\u-boot\net\bootp.h)(0x4F2E9FBE)
+F (..\u-boot\net\nfs.c)(0x4F2E9FBE)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nfs.o --omf_browse .\sdram-jlink\nfs.crf --depend .\sdram-jlink\nfs.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\include\malloc.h)(0x4F2605FC)
+I (..\u-boot\net\nfs.h)(0x4F2E9FBE)
+I (..\u-boot\net\bootp.h)(0x4F2E9FBE)
+F (..\u-boot\net\rarp.c)(0x4F2E9FBE)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\rarp.o --omf_browse .\sdram-jlink\rarp.crf --depend .\sdram-jlink\rarp.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\net\nfs.h)(0x4F2E9FBE)
+I (..\u-boot\net\bootp.h)(0x4F2E9FBE)
+I (..\u-boot\net\rarp.h)(0x4F2E9FBE)
+I (..\u-boot\net\tftp.h)(0x4F2E9FBE)
+F (..\u-boot\drivers\net\dm9000x.c)(0x4F2EA0C0)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\dm9000x.o --omf_browse .\sdram-jlink\dm9000x.crf --depend .\sdram-jlink\dm9000x.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+I (..\u-boot\include\net.h)(0x4F2605FD)
+I (..\u-boot\include\asm/io.h)(0x4F2605FC)
+I (..\u-boot\include\asm/memory.h)(0x4F2605FC)
+I (..\u-boot\drivers\net\dm9000x.h)(0x4F2EA0C0)
+F (..\u-boot\drivers\mtd\nand\nand.c)(0x4F2EA0C1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nand.o --omf_browse .\sdram-jlink\nand.crf --depend .\sdram-jlink\nand.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\drivers\mtd\nand\nand_base.c)(0x4F2EA0C1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nand_base.o --omf_browse .\sdram-jlink\nand_base.crf --depend .\sdram-jlink\nand_base.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\drivers\mtd\nand\nand_bbt.c)(0x4F2EA0C1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nand_bbt.o --omf_browse .\sdram-jlink\nand_bbt.crf --depend .\sdram-jlink\nand_bbt.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\drivers\mtd\nand\nand_ecc.c)(0x4F2EA0C1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nand_ecc.o --omf_browse .\sdram-jlink\nand_ecc.crf --depend .\sdram-jlink\nand_ecc.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\drivers\mtd\nand\nand_ids.c)(0x4F2EA0C1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nand_ids.o --omf_browse .\sdram-jlink\nand_ids.crf --depend .\sdram-jlink\nand_ids.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\u-boot\drivers\mtd\nand\nand_util.c)(0x4F2EA0C1)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\nand_util.o --omf_browse .\sdram-jlink\nand_util.crf --depend .\sdram-jlink\nand_util.d)
+I (..\u-boot\include\common.h)(0x4F374FC1)
+I (..\u-boot\include\config.h)(0x4F3547FC)
+I (..\u-boot\include\configs/tq2440.h)(0x4F37B74E)
+I (..\u-boot\include\config_cmd_default.h)(0x4F2605FB)
+I (..\u-boot\include\linux/bitops.h)(0x4F2605FB)
+I (..\u-boot\include\asm/bitops.h)(0x4F2605FC)
+I (..\u-boot\include\linux/types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/config.h)(0x4F2605FB)
+I (..\u-boot\include\linux/posix_types.h)(0x4F2605FB)
+I (..\u-boot\include\linux/stddef.h)(0x4F2605FB)
+I (..\u-boot\include\asm/posix_types.h)(0x4F2605FC)
+I (..\u-boot\include\asm/types.h)(0x4F2605FC)
+I (..\u-boot\include\linux/string.h)(0x4F2605FB)
+I (..\u-boot\include\asm/string.h)(0x4F2605FC)
+I (..\u-boot\include\asm/ptrace.h)(0x4F2605FC)
+I (..\u-boot\include\asm/proc/ptrace.h)(0x4F262416)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54199D7C)
+I (..\u-boot\include\part.h)(0x4F2605FB)
+I (..\u-boot\include\ide.h)(0x4F2605FA)
+I (..\u-boot\include\flash.h)(0x4F2605FB)
+I (..\u-boot\include\image.h)(0x4F274567)
+I (..\u-boot\include\asm/byteorder.h)(0x4F2605FC)
+I (..\u-boot\include\linux/byteorder/little_endian.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/swab.h)(0x4F2605FB)
+I (..\u-boot\include\linux/byteorder/generic.h)(0x4F2605FB)
+I (..\u-boot\include\command.h)(0x4F334245)
+I (..\u-boot\include\lmb.h)(0x4F2605FD)
+I (..\u-boot\include\asm/u-boot.h)(0x545DE2DA)
+I (..\u-boot\include\asm/global_data.h)(0x4F3390B7)
+F (..\misc\retarget.c)(0x4F33952A)(-c --cpu ARM920T -g -O0 --apcs=interwork -I..\u-boot\include --gnu --fpu=none --wrap_diagnostics -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Samsung-D__ARM__ -D__KERNEL__-o .\sdram-jlink\retarget.o --omf_browse .\sdram-jlink\retarget.crf --depend .\sdram-jlink\retarget.d)
+I (..\u-boot\include\serial.h)(0x4F2605FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
